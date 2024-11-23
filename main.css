@@ -4,9 +4,12 @@
 
  @layer utilities {
 .button{
-@apply border border-[#F44335] py-1 px-1 rounded-full md:px-3 md:text-lg mx-1 my-2 md:my-2 text-[#181818] hover:bg-green-200 hover:border-pink-300 hover:scale-105 duration-300 transition-all;
+@apply border border-[#F44335] py-1 px-1 rounded-full md:px-3 md:text-lg mx-1 my-2 md:my-2 text-[#181818] hover:bg-green-200 hover:border-pink-300 hover:scale-105 duration-300 transition-all dark:text-gray-200 dark:border-gray-500 dark:hover:bg-pink-950;
 }
 .corce{
-    @apply uppercase border border-black px-3 py-1 text-xs rounded-full text-[#2D3142] mr-1 md:text-xl md:mr-10 md:px-7 md:font-medium cursor-pointer hover:bg-pink-200 transition-all duration-200 hover:border-pink-200;
+    @apply uppercase border border-black px-3 py-1 text-xs rounded-full text-[#2D3142] mr-1 md:text-xl md:mr-10 md:px-7 md:font-medium cursor-pointer hover:bg-pink-200 transition-all duration-200 hover:border-pink-200 dark:text-gray-200 dark:hover:text-blue-900 dark:border-gray-400;
+}
+.table{
+    @apply md:leading-loose leading-relaxed md:mr-7 text-xs text-[#20484F] ;
 }
 } 
